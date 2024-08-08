@@ -56,13 +56,13 @@
             background-repeat: no-repeat;
             display: table;
             &.slide01{
-                background-image:url("/img/main_visual01.jpg");
+                background-image:url("../img/main_visual01.jpg");
             }
             &.slide02{
-                background-image:url("/img/main_visual01.jpg");
+                background-image:url("../img/main_visual01.jpg");
             }
             &.slide03{
-                background-image:url("/img/main_visual01.jpg");
+                background-image:url("../img/main_visual01.jpg");
             }
             .txt{
                 color: #fff;
@@ -123,7 +123,7 @@
                 }
                 &:after{
                     content:"";
-                    background: url("/img/next_arrow.png")no-repeat;
+                    background: url("../img/next_arrow.png")no-repeat;
                     background-size: 28px 10px;
                     width: 27px;
                     height: 27px;
@@ -145,7 +145,7 @@
                 }
                 &:after{
                     content:"";
-                    background: url("/img/left_arrow.png")no-repeat;
+                    background: url("../img/left_arrow.png")no-repeat;
                     background-size: 28px 10px;
                     width: 27px;
                     height: 27px;
@@ -447,7 +447,7 @@
 
 #deps05{
     .cont_in{
-        background-image: url("/img/deps05_bg.jpg");
+        background-image: url("../img/deps05_bg.jpg");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -484,7 +484,7 @@
                             font-weight: 600;
                          
                             .ico01{
-                                background: url("/img/deps05_icon01.png")no-repeat;
+                                background: url("../img/deps05_icon01.png")no-repeat;
                                 background-size: 30px 27px;
                                 width: 30px;
                                 height: 27px;
@@ -492,7 +492,7 @@
                                 padding-left: 40px;
                             }
                             .ico02{
-                                background: url("/img/deps05_icon02.png")no-repeat;
+                                background: url("../img/deps05_icon02.png")no-repeat;
                                 background-size: 30px 27px;
                                 width: 30px;
                                 height: 27px;
@@ -500,7 +500,7 @@
                                padding-left: 40px;
                             }
                             .ico03{
-                                background: url("/img/deps05_icon03.png")no-repeat;
+                                background: url("../img/deps05_icon03.png")no-repeat;
                                 background-size: 30px 27px;
                                 width: 30px;
                                 height: 27px;
