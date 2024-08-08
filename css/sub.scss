@@ -36,7 +36,7 @@
     padding-top: 100px;
 }
 #sub_visual01{
-    background: url("/img/sub_visual01.jpg")no-repeat center /cover;
+    background: url("../img/sub_visual01.jpg")no-repeat center /cover;
     width: 100%;
     height: 438px;
     display: flex;
@@ -48,7 +48,7 @@
     }
 }
 #sub_visual02{
-    background: url("/img/sub_visual02.jpg")no-repeat center /cover;
+    background: url("../img/sub_visual02.jpg")no-repeat center /cover;
     width: 100%;
     height: 438px;
     display: flex;
@@ -98,7 +98,7 @@
 #about{
     margin: 0 0 100px 0;
     .top{
-        background: url("/img/about_bg.jpg")no-repeat center /cover;
+        background: url("../img/about_bg.jpg")no-repeat center /cover;
         width: 100%;
         height: 419px;
         color: #707070;
@@ -433,7 +433,7 @@
         &.certification01{
             &:before{
                 content:"";
-                background: url("/img/overview_bg2.jpg")no-repeat center/ cover;
+                background: url("../img/overview_bg2.jpg")no-repeat center/ cover;
                 width: 100%;
                 height: 562px;
                 display: block;
@@ -447,7 +447,7 @@
         &.certification02{
             &:before{
                 content:"";
-                background: url("/img/overview_bg2.jpg")no-repeat center/ cover;
+                background: url("../img/overview_bg2.jpg")no-repeat center/ cover;
                 width: 100%;
                 height: 562px;
                 display: block;
@@ -487,7 +487,7 @@
         width: 100%;
         margin: 0 auto;
         .sub_top{
-            background: url("/img/title_bg.png")no-repeat;
+            background: url("../img/title_bg.png")no-repeat;
             height: 57px;
             color: #fff;
             display: flex;
@@ -505,7 +505,7 @@
                 
                 i{
                     display: table-cell;
-                    background: url("/img/address_icon.png")no-repeat ;
+                    background: url("../img/address_icon.png")no-repeat ;
                     background-position: center 7px;
                     width: 30px;
                     height: 37px;                    
@@ -543,7 +543,7 @@
         }
        
         .sub_top{
-            background: url("/img/title_bg.png")no-repeat;
+            background: url("../img/title_bg.png")no-repeat;
             height: 57px;
             color: #fff;
             display: flex;
@@ -608,7 +608,7 @@
         width: 100%;
         margin: 0 auto 100px;
         .sub_top{
-            background: url("/img/title_bg.png")no-repeat;
+            background: url("../img/title_bg.png")no-repeat;
             height: 57px;
             color: #fff;
             display: flex;
@@ -732,7 +732,7 @@
                 font-weight: 600;
                 i{
                     display: table-cell;
-                    background: url("/img/address_icon.png") no-repeat;
+                    background: url("../img/address_icon.png") no-repeat;
                     background-position: left 8px;
                     width: 36px;
                     height: 37px;
@@ -771,7 +771,7 @@
                 font-weight: 600;
                 i{
                     display: table-cell;
-                    background: url("/img/address_icon.png") no-repeat;
+                    background: url("../img/address_icon.png") no-repeat;
                     background-position: left 8px;
                     width: 36px;
                     height: 37px;
