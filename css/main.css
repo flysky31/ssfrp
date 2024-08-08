@@ -47,13 +47,13 @@
   display: table;
 }
 #deps01 .swiper-wrapper .swiper-slide.slide01 {
-  background-image: url("/img/main_visual01.jpg");
+  background-image: url("../img/main_visual01.jpg");
 }
 #deps01 .swiper-wrapper .swiper-slide.slide02 {
-  background-image: url("/img/main_visual01.jpg");
+  background-image: url("../img/main_visual01.jpg");
 }
 #deps01 .swiper-wrapper .swiper-slide.slide03 {
-  background-image: url("/img/main_visual01.jpg");
+  background-image: url("../img/main_visual01.jpg");
 }
 #deps01 .swiper-wrapper .swiper-slide .txt {
   color: #fff;
@@ -108,7 +108,7 @@
 }
 #deps01 .box .arrow .swiper-button-next:after {
   content: "";
-  background: url("/img/next_arrow.png") no-repeat;
+  background: url("../img/next_arrow.png") no-repeat;
   background-size: 28px 10px;
   width: 27px;
   height: 27px;
@@ -127,7 +127,7 @@
 }
 #deps01 .box .arrow .swiper-button-prev:after {
   content: "";
-  background: url("/img/left_arrow.png") no-repeat;
+  background: url("../img/left_arrow.png") no-repeat;
   background-size: 28px 10px;
   width: 27px;
   height: 27px;
@@ -365,7 +365,7 @@
 }
 
 #deps05 .cont_in {
-  background-image: url("/img/deps05_bg.jpg");
+  background-image: url("../img/deps05_bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -404,7 +404,7 @@
   font-weight: 600;
 }
 #deps05 .cont_in .flex .left .address ul li .ico01 {
-  background: url("/img/deps05_icon01.png") no-repeat;
+  background: url("../img/deps05_icon01.png") no-repeat;
   background-size: 30px 27px;
   width: 30px;
   height: 27px;
@@ -412,7 +412,7 @@
   padding-left: 40px;
 }
 #deps05 .cont_in .flex .left .address ul li .ico02 {
-  background: url("/img/deps05_icon02.png") no-repeat;
+  background: url("../img/deps05_icon02.png") no-repeat;
   background-size: 30px 27px;
   width: 30px;
   height: 27px;
@@ -420,7 +420,7 @@
   padding-left: 40px;
 }
 #deps05 .cont_in .flex .left .address ul li .ico03 {
-  background: url("/img/deps05_icon03.png") no-repeat;
+  background: url("../img/deps05_icon03.png") no-repeat;
   background-size: 30px 27px;
   width: 30px;
   height: 27px;
