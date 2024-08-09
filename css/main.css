@@ -66,11 +66,15 @@
   transform-origin: 0 100%;
 }
 #deps01 .swiper-wrapper .swiper-slide.slide02 .swiper-slide-cover {
-  background-image: url("../img/main_visual01.jpg");
+  background-image: url("../img/main_visual02.jpg");
   transform-origin: 100% 100%;
 }
 #deps01 .swiper-wrapper .swiper-slide.slide03 .swiper-slide-cover {
   background-image: url("../img/main_visual01.jpg");
+  transform-origin: 100% 0;
+}
+#deps01 .swiper-wrapper .swiper-slide.slide04.swiper-slide-cover {
+  background-image: url("../img/main_visual02.jpg");
   transform-origin: 100% 0;
 }
 #deps01 .swiper-wrapper .swiper-slide .swiper-slide-cover {
