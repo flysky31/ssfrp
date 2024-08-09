@@ -261,7 +261,7 @@
 }
 
 #deps03 {
-  display: none;
+
 }
 #deps03 .cont_in {
   margin: 80px 0 0;
@@ -435,6 +435,9 @@
   font-size: 1.875rem;
 }
 
+#deps04{
+      display:none;
+}
 #deps04 .flex {
   display: flex;
 }
