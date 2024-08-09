@@ -173,25 +173,25 @@
                     <nav id="bo-cate">
                         <h2>시공갤러리 카테고리</h2>
                         <ul id="bo-cate-ul">
-                            <li>
-                                <a href="../sub/gallery.html" id="bo_cate_on">전체</a>
+                            <li class="tab" data-tab="tab1">
+                                <a href="../sub/gallery.html" id="bo_cate_on" >전체</a>
                             </li>
-                            <li>
+                            <li class="tab" data-tab="tab2">
                                 <a href="../sub/gallery.html">FRP TANK</a>
                             </li>
-                            <li>
+                            <li class="tab" data-tab="tab3">
                                 <a href="../sub/gallery.html">FRP SCRUBBER</a>
                             </li>
-                            <li>
+                            <li class="tab" data-tab="tab4">
                                 <a href="../sub/gallery.html">FRP DUCT</a>
                             </li>
-                            <li>
+                            <li class="tab" data-tab="tab5">
                                 <a href="../sub/gallery.html">FRP PIPE</a>
                             </li>
-                            <li>
+                            <li class="tab" data-tab="tab6">
                                 <a href="../sub/gallery.html">FRP COVER</a>
                             </li>
-                            <li>
+                            <li class="tab" data-tab="tab7">
                                 <a href="../sub/gallery.html">FRP LINING</a>
                             </li>        
                         </ul>
@@ -213,8 +213,8 @@
                                 <a href="#" id="btn-search" class="btn-bo-search" title="게시판 검색">검색</a>
                             </div>
                         </div>
-                        <ul class="gallery-list">
-                            <li>
+                        <ul class="gallery-list tab-content">
+                            <li id="tab1" class="tab-pane active">
                                 <a href="#!">
                                     <span class="gallery-list-img">
                                         <img src="../img/thumb-0343f722de23b247775efafcd541568f_QBLheHbt_34a9ab4df8056b8922bc2ac895be4c15fbd43a16_549x406.jpg" alt="" class="gallery-img-content">
@@ -230,7 +230,7 @@
                                     </span>
                                 </a>
                             </li>
-                            <li>
+                            <li id="tab2" class="tab-pane ">
                                 <a href="#!">
                                     <span class="gallery-list-img"><img src="../img/thumb-94feac321cd3286828b8dc7685c240c0_4aq8FIMn_7395d799c80c9218ff79111b5f94cabc8a189d88_549x406.jpg" alt="" class="gallery-img-content"></span>
                                     <span class="gallery-list-content">
@@ -244,7 +244,7 @@
                                     </span>
                                 </a>
                             </li>
-                            <li>
+                            <li id="tab3" class="tab-pane ">
                                 <a href="#!">
                                     <span class="gallery-list-img"><img src="../img/thumb-94feac321cd3286828b8dc7685c240c0_EgUxLIhQ_826d304affff8add877f91b0d7be04fc7313e081_549x406.jpg" alt="" class="gallery-img-content"></span>
                                     <span class="gallery-list-content">
@@ -258,7 +258,7 @@
                                     </span>
                                 </a>
                             </li>
-                            <li>
+                            <li id="tab4" class="tab-pane ">
                                 <a href="#!">
                                     <span class="gallery-list-img"><img src="../img/thumb-94feac321cd3286828b8dc7685c240c0_FRCvZhNY_15e1457dbdf3e8b3b59aa3e55119dda77fb0d220_549x406.jpg" alt="" class="gallery-img-content"></span>
                                     <span class="gallery-list-content">
@@ -272,7 +272,7 @@
                                     </span>
                                 </a>
                             </li>
-                            <li>
+                            <li id="tab5" class="tab-pane ">
                                 <a href="#!">
                                     <span class="gallery-list-img"><img src="../img/thumb-62_copy1_86_94feac321cd3286828b8dc7685c240c0_KQHtAVUr_507edcef445d4ff88d8e516078aa98b661d3bac1_549x406.jpg" alt="" class="gallery-img-content"></span>
                                     <span class="gallery-list-content">
@@ -286,7 +286,7 @@
                                     </span>
                                 </a>
                             </li>
-                            <li>
+                            <li id="tab6" class="tab-pane ">
                                 <a href="#!">
                                     <span class="gallery-list-img"><img src="../img/thumb-41_copy2_85_94feac321cd3286828b8dc7685c240c0_BS9LQlmt_b1106f9517aef467d5e85d1a7369f723213391d8_549x406.jpg" alt="" class="gallery-img-content"></span>
                                     <span class="gallery-list-content">
@@ -300,7 +300,7 @@
                                     </span>
                                 </a>
                             </li>
-                            <li>
+                            <li id="tab7" class="tab-pane ">
                                 <a href="#!">
                                     <span class="gallery-list-img"><img src="../img/thumb-60_copy_84_94feac321cd3286828b8dc7685c240c0_gXHJuDc7_1d5b41075961b055dd82e641f1784c6b7ff1f2d0_549x406.jpg" alt="" class="gallery-img-content"></span>
                                     <span class="gallery-list-content">
@@ -431,7 +431,7 @@
                             <div class="board-btn list-bottom-left"></div>
                             <div class="board-btn list-bottom-right btn-text-none"></div>
                         </div>            
-
+                
                         <nav class="pg_wrap">
                             <span class="pg">
                                 <span class="sound_only">열린</span>
@@ -454,11 +454,11 @@
                                     <div class="bo-sch-inner">
                                         <div class="bo-sch-input">
                                             <label for="sfl" class="sound_only">검색대상</label>
-                                            <select name="sfl" id="sfl"><option value="wr_subject" >제목</option><option value="wr_content" >내용</option><option value="wr_subject||wr_content" >제목+내용</option><option value="wr_name,1" >글쓴이</option><option value="wr_name,0" >글쓴이(코)</option></select>
+                                            <select name="sfl" id="sfl"><option value="wr_subject">제목</option><option value="wr_content">내용</option><option value="wr_subject||wr_content">제목+내용</option><option value="wr_name,1">글쓴이</option><option value="wr_name,0">글쓴이(코)</option></select>
                                         </div>
                                         <div class="bo-sch-input">
                                             <label for="stx" class="sound_only">검색어<strong class="sound_only"> 필수</strong></label>
-                                            <input type="text" name="stx" value="" required id="stx" placeholder=" 검색어를 입력해주세요">
+                                            <input type="text" name="stx" value="" required="" id="stx" placeholder=" 검색어를 입력해주세요">
                                         </div>
                                         <div class="bo-sch-btn">
                                             <button type="submit" value="검색" class="sch-btn">검색</button>
@@ -483,9 +483,26 @@
                             $('.bo-sch-wrap').stop().removeClass('active').fadeOut('fast');
                 
                         });
+                
+                
+                        $('.tab').click(function () {
+                            // 현재 활성화된 탭과 콘텐츠에서 active 클래스를 제거합니다.
+                            $('.tab').removeClass('active');
+                            $('.tab-pane').removeClass('active');
+                
+                            // 클릭한 탭에 active 클래스를 추가합니다.
+                            $(this).addClass('active');
+                
+                            // 클릭한 탭의 data-tab 속성을 가져옵니다.
+                            var tabId = $(this).data('tab');
+                
+                            // 해당하는 콘텐츠에 active 클래스를 추가합니다.
+                            $('#' + tabId).addClass('active');
+                        });
                     });
+                
                     </script>
-                </div>   
+                </div> 
                 <style>
                 .gallery-list .gallery-list-img{padding-top: 74%;}
                 </style>
