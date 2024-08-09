@@ -4,21 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>신성ftp - 갤러리게시판</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://nanopioneer.tium.co.kr/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/sub.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/board.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.4.1/swiper-bundle.min.js"></script>
 </head>
 <body>
     <div class="sinsung_wrap">
@@ -483,22 +479,6 @@
                             $('.bo-sch-wrap').stop().removeClass('active').fadeOut('fast');
                 
                         });
-                
-                
-                        $('.tab').click(function () {
-                            // 현재 활성화된 탭과 콘텐츠에서 active 클래스를 제거합니다.
-                            $('.tab').removeClass('active');
-                            $('.tab-pane').removeClass('active');
-                
-                            // 클릭한 탭에 active 클래스를 추가합니다.
-                            $(this).addClass('active');
-                
-                            // 클릭한 탭의 data-tab 속성을 가져옵니다.
-                            var tabId = $(this).data('tab');
-                
-                            // 해당하는 콘텐츠에 active 클래스를 추가합니다.
-                            $('#' + tabId).addClass('active');
-                        });
                     });
                 
                     </script>
@@ -552,8 +532,18 @@
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>   
     <script src="../js/main.js"></script> 
     <script src="../js/nav.js"></script> 
+    <script>
+        $(document).ready(function () {
+            $('.tab').click(function () {
+                $('.tab').removeClass('active');
+                $('.tab-pane').removeClass('active');
+                $(this).addClass('active');
+                var tabId = $(this).data('tab');
+                $('#' + tabId).addClass('active');
+            });
+        });
+    </script>
 </body>
 </html>
