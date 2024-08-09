@@ -386,7 +386,10 @@
   color: #707070;
   font-weight: 800;
   text-align: center;
-  margin: 0 0 100px 0;
+  margin: 0 0 70px 0;
+}
+#certification .title p{
+  font-size:2.5rem;
 }
 #certification .certification_box {
   position: relative;
@@ -799,6 +802,9 @@
   }
   #certification .title {
     margin: 0 0 50px 0;
+  }
+  #certification .title p{
+    font-size:2rem;
   }
   #workplace {
     margin: 50px 0;
