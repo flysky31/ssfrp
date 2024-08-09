@@ -81,7 +81,7 @@
             }
             &.slide02{
                 .swiper-slide-cover{
-                    background-image:url("../img/main_visual01.jpg");
+                    background-image:url("../img/main_visual02.jpg");
                     transform-origin: 100% 100%;
                 }
                
@@ -89,6 +89,13 @@
             &.slide03{
                 .swiper-slide-cover{
                     background-image:url("../img/main_visual01.jpg");
+                    transform-origin: 100% 0;
+                }
+      
+            }
+            &.slide04{
+                .swiper-slide-cover{
+                    background-image:url("../img/main_visual02jpg");
                     transform-origin: 100% 0;
                 }
       
