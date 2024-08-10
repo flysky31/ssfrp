@@ -142,8 +142,8 @@
 	.bo-admin-select-wrap.active .btn-bo-admin-select:after{width: 100%;}
 
 
-.tab-content li.tab-pane{display:none;}
-.tab-content li.tab-pane.active{display:block;}
+.tab-content .tab-pane{display:none;}
+.tab-content .tab-pane.active{display:block;}
 .gallery-list{display: flex;flex-wrap:wrap;}
 .gallery-list li{width: 32%;margin: 0 2% 50px 0;}
 
