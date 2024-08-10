@@ -115,7 +115,7 @@
 	.more-opt li button.select-move{background: url(./svg/move.svg) 8px center no-repeat;padding-left: 34px;}
 
 	.btn-bo-rss{background: url(./svg/waves.svg) 8px center no-repeat;padding-left: 32px !important;}
-	.btn-bo-search{background: url(./svg/search.svg) 8px center no-repeat;padding-left: 32px !important;}
+	.btn-bo-search{background: url(../img/search.svg) 8px center no-repeat;padding-left: 32px !important;}
 	.btn-bo-write{background: url(./svg/write.svg) 5px center no-repeat;padding-left: 32px !important;}
 	.btn-bo-admin{background: url(./svg/settings.svg) 8px center no-repeat;padding-left: 32px !important;}
 	.btn-bo-admin-select{background: #fff url(./svg/window_content.svg) 8px center no-repeat;padding-left: 34px !important;position: relative;padding-right: 30px !important;}
