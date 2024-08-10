@@ -1741,6 +1741,7 @@
 }
 #frp_wrap .frp01 .title {
   color: #707070;
+  text-align:center;
   margin: 0 0 70px 0;
 }
 #frp_wrap .frp01 .title h3 {
@@ -1776,6 +1777,7 @@
 }
 #frp_wrap .frp01 .cont figure {
   background: #F8F8F8;
+  text-align:center;
   padding: 35px;
   margin: 50px auto 70px !important;
 }
@@ -1797,6 +1799,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 50px 0 70px;
+  text-align:center;
 }
 #frp_wrap .frp02 ul li {
   width: 25%;
@@ -1826,6 +1829,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  text-align:center;
 }
 #frp_wrap .frp03 .bg_box ul li {
   color: #fff;
@@ -1887,6 +1891,7 @@
   font-size: 1.125rem;
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
+  text-align:center;
 }
 #frp_wrap .frp04 .table table tbody td:first-child {
   border-right: 1px solid #ddd;
